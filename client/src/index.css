@@ -1,0 +1,57 @@
+/* =============== CSS Variable & Intial Setup CSS ============== */
+
+
+:root{
+
+  /* Colors */
+  --clr-primary : tomato;
+  --clr-primary-variant : tomato;
+  --clr-secondary : tomato;
+  --clr-secondray-variant : tomato;
+  --clr-accent : tomato;
+  --clr-accent-variant : tomato;
+  --clr-light : white;
+  --clr-dark : black;
+
+  /* Containers */
+  --container-lg : 75%;
+  --container-md : 80%;
+  --container-sm : 90%;
+
+  /* Fonts */
+  --font-josefins : 'Josefin Sans', sans-serif;
+  --font-lora : 'Lora', serif;
+  --font-varelo: 'Varela', sans-serif;
+
+  /* Transitions */
+  --transition : all 400ms ease;
+
+  /* Box Shadow */
+  --box-primary : 0 0 0 0.7;
+}
+
+/* Defaults */
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, button, textarea, select{
+  font: inherit;
+}
+
+body{
+  min-height: 100vh;
+  line-height: 1.6;
+  color: var(--clr-primary);
+}
+
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
